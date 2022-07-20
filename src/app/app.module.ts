@@ -1,14 +1,18 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+import { LengthConverterComponent } from './length-converter/length-converter.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    LengthConverterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
